@@ -11,7 +11,7 @@ A Retrieval-Augmented Generation (RAG) pipeline for question answering over acad
 - **Context-grounded answers** through the DeepSeek-R1-Distill-Qwen-7B model via HuggingFace Inference API
 - **Hallucination guard** — the LLM is instructed to say "I don't know" when the context lacks the answer
 - **Custom evaluation framework** using cosine similarity against a hand-crafted ground-truth dataset
-- **Fully Dockerized** — reproducible across platforms, including macOS on Intel CPUs
+- **Fully Dockerized** — reproducible across platforms
 - **Interactive chat loop** with `exit` and `exit_eval` commands
 
 ---

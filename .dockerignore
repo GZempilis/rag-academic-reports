@@ -1,0 +1,38 @@
+# Git & GitHub
+.git/
+.gitignore
+
+
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Docker
+Dockerfile
+.dockerignore
+
+#### να το δω αυτο 
+chroma_db/
+raw_data/ 
+
+.hf_cache/

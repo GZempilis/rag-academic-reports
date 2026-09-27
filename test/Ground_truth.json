@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "question": "What is the main goal of the ML project?",
+    "ground_truth": "To develop a predictive model that identifies bank customers with a high probability of subscribing to a term deposit, optimizing the targeting process of direct marketing campaigns.",
+    "source_pdf": "ML_Project.pdf",
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "question": "What dataset was used in the ML project and how many records does it contain?",
+    "ground_truth": "The Bank Marketing dataset from Moro et al., containing 41,188 records.",
+    "source_pdf": "ML_Project.pdf",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "question": "Which model achieved the best performance in the ML project and what was its AUC score?",
+    "ground_truth": "CatBoost achieved the best performance with a test AUC of 0.8157, surpassing the benchmark of 0.794.",
+    "source_pdf": "ML_Project.pdf",
+    "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "question": "Why was the duration variable excluded from the ML project?",
+    "ground_truth": "The duration variable was excluded to prevent data leakage, since this information is only available after a call is completed.",
+    "source_pdf": "ML_Project.pdf",
+    "difficulty": "medium"
+  },
+  {
+    "id": 5,
+    "question": "What was the most important feature according to CatBoost feature importance?",
+    "ground_truth": "The Euribor 3-month rate was the most significant feature, indicating that term deposit subscriptions are sensitive to the interest rate environment.",
+    "source_pdf": "ML_Project.pdf",
+    "difficulty": "medium"
+  },
+  {
+    "id": 6,
+    "question": "What is the main topic of the SVD-Mamba project?",
+    "ground_truth": "The post-training compression of the Mamba-130M state space model using Singular Value Decomposition coupled with Low-Rank Adaptation (LoRA).",
+    "source_pdf": "Project_report.pdf",
+    "difficulty": "easy"
+  },
+  {
+    "id": 7,
+    "question": "Which SVD ranks were evaluated in the SVD-Mamba project?",
+    "ground_truth": "Three SVD rank thresholds were evaluated: 526, 256, and 64.",
+    "source_pdf": "Project_report.pdf",
+    "difficulty": "easy"
+  },
+  {
+    "id": 8,
+    "question": "What is the Perplexity Illusion described in the SVD-Mamba project?",
+    "ground_truth": "The Perplexity Illusion is the phenomenon where heavily compressed models achieve near-perfect statistical perplexity on POS-tagged data while suffering complete semantic collapse, generating glitch tokens and repetition loops instead of meaningful text.",
+    "source_pdf": "Project_report.pdf",
+    "difficulty": "hard"
+  },
+  {
+    "id": 9,
+    "question": "Why was LoRA used in the SVD-Mamba project?",
+    "ground_truth": "LoRA was used for parameter recovery after SVD truncation, to bridge the performance gap caused by discarding dimensional information during compression.",
+    "source_pdf": "Project_report.pdf",
+    "difficulty": "medium"
+  },
+  {
+    "id": 10,
+    "question": "What happened to the Mamba model at SVD rank 64?",
+    "ground_truth": "At rank 64, the model suffered catastrophic semantic collapse, producing out-of-distribution glitch tokens and infinite repetition loops, despite dropping from a perplexity of 348.59 to 4.44 with POS-tagged data.",
+    "source_pdf": "Project_report.pdf",
+    "difficulty": "hard"
+  },
+  {
+    "id": 11,
+    "question": "What is the purpose of the exploratory data analysis in the Stats report?",
+    "ground_truth": "To map the data and understand fundamental information about the behavior of the variables, their distributions, and whether transformations or outlier detection procedures are needed.",
+    "source_pdf": "Stats_report.pdf",
+    "difficulty": "easy"
+  },
+  {
+    "id": 12,
+    "question": "Which data transformation was applied in the Stats report and why?",
+    "ground_truth": "The Yeo-Johnson power transformation was applied to address non-normality and heteroscedasticity of the target variable, with an optimal parameter of approximately lambda equals -0.5.",
+    "source_pdf": "Stats_report.pdf",
+    "difficulty": "medium"
+  },
+  {
+    "id": 13,
+    "question": "Which robust estimators were proposed in the Stats report?",
+    "ground_truth": "The proposed robust estimators were SARIDGE (Subsampling Adaptive Ridge), SLAD-LASSO (Subsampling Least Absolute Deviations Lasso), and two Bolasso variants.",
+    "source_pdf": "Stats_report.pdf",
+    "difficulty": "medium"
+  },
+  {
+    "id": 14,
+    "question": "How many variables and events were in the dataset of the Stats report?",
+    "ground_truth": "The dataset contained 88 variables and 795 events.",
+    "source_pdf": "Stats_report.pdf",
+    "difficulty": "easy"
+  },
+  {
+    "id": 15,
+    "question": "Which project deals with compressing a language model and which one with bank marketing prediction?",
+    "ground_truth": "The SVD-Mamba project deals with compressing a language model using SVD and LoRA, while the ML project deals with bank marketing prediction using the Bank Marketing dataset.",
+    "source_pdf": "cross-document",
+    "difficulty": "hard"
+  }
+]

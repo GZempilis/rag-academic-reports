@@ -1,0 +1,10 @@
+chromadb
+huggingface_hub
+python-dotenv   
+langchain_community
+langchain-core
+langchain_text_splitters    
+langchain-huggingface
+pypdf
+sentence-transformers
+pandas

@@ -1,5 +1,12 @@
 # RAG System for Academic Reports Analysis
 
+![Python](https://img.shields.io/badge/python-3.11-blue)
+![Docker](https://img.shields.io/badge/Docker-containerized-2496ED?logo=docker&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-Inference%20API-FFD21E?logo=huggingface&logoColor=black)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-vector%20store-FF6B35)
+![Sentence-Transformers](https://img.shields.io/badge/Sentence--Transformers-local%20embeddings-orange)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 A Retrieval-Augmented Generation (RAG) pipeline for question answering over academic PDF documents. Combines **local embeddings** with a **remote LLM** to produce context-grounded answers with explicit source attribution, packaged in Docker for reproducibility.
 
 ---
